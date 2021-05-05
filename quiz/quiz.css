@@ -1,0 +1,41 @@
+body {
+    font-size: 1.4rem;
+}
+
+ ul li {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+p{
+    padding:0px;
+    margin: 0px;
+}
+
+.item{
+    width: 500px;
+    background-color:rgb(34, 172, 190);
+    padding:15px;
+    margin:10px;
+    display:flex;
+    justify-content:center;
+}
+.questions{
+    display: block;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+ .score button {
+    padding: 9px 16px;
+    background-color: rgb(6, 155, 31);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+} 
